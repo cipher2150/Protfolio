@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Profile1 from '../assets/Profile1.png';
 import './Hero.css';
 
 export default function Hero() {
@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="hero-visual">
           <div className="avatar-container">
             <div className="avatar-image-wrapper">
-              <img src="./assets/Profile1.png" alt="Rajshekhar Saxena" className="avatar-image" />  
+              <img src={Profile1} alt="Rajshekhar" className="avatar-image" />  
             </div>
           </div>
 

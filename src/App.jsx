@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Stats from './components/Stats';
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Navbar />
       <main style={{ position: 'relative', overflow: 'hidden' }}>
         <Hero />
+        <Stats />
       </main>
     </>
   );
